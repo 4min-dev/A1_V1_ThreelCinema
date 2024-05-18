@@ -39,10 +39,10 @@ ________________________________________________________________________________
 
 Social Media and Contacts:
 
-• Telegram - https://t.me/paymentusd 
+• Telegram - [link](https://t.me/paymentusd)
 
-• Github - https://github.com/ThreelUp 
+• Github - [link](https://github.com/ThreelessUp)
 
-• Email - sadgerondo@gmail.com | golpondo@gmail.com 
+• Email - sadgerondo@gmail.com | golpondo@gmail.com
 
 • Upwork - [link](https://www.upwork.com/freelancers/~014327e1cc270280a6)
