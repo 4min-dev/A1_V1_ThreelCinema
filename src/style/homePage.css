@@ -1,0 +1,420 @@
+
+.homePageStartedSectionContainer {
+    position: absolute;
+    left: 0;
+    right:0;
+}
+.homePageStartedSectionContent {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all,.7s;
+    z-index: -10;
+}
+.homePageStartedSectionContent-show {
+    opacity: 1;
+    margin:42px 0px 0px 0px;
+    z-index: 1;
+}
+
+.popularMoviesMainContainer {
+    position: relative;
+    width: 1500px;
+    height: 700px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin:25px 0px 0px 0px;
+}
+.popularMoviesWindow {
+    position: relative;
+    display: flex;
+    align-items: end;
+    overflow: hidden;
+    min-width: 500px;
+    max-width: 500px;
+    height: 100%;
+    margin:0px 40px 0px 40px;
+}
+.popularMovieButton {
+    position: relative;
+    min-width: 100%;
+    max-width: 100%;
+    height: 700px;
+    transition: transform .7s;
+}
+.popularMovieButton *>img {
+    cursor: pointer;
+}
+.slideButton:disabled {
+    opacity: 0;
+    cursor: default;
+}
+.slideButton {
+    background:none;
+    border-radius: 10000px;
+    border:4px solid white;
+    height: 100%;
+    padding:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all,.3s;
+}
+.slideButton:hover:not(:disabled) {
+    opacity: 40%;
+}
+.homePageStartedSectionBackgroundMovie {
+    position: absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    width: 100%;
+    height: 100vh;
+    transition: opacity,.4s;
+}
+#backgroundMovieIsHovered {
+    opacity: 10%;
+}
+#backgroundMovieDidNotHovered {
+    opacity: 0;
+}
+.moviesSectionContainer {
+    position: relative;
+    top:120vh;
+    transition: all,.9s;
+    opacity: 0;
+}
+.moviesSectionContainer-show {
+    top:100vh;
+    opacity: 1;
+}
+.moviesSectionContent {
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.filterContentForm {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin:25px 0px 0px 0px;
+}
+.filterContentMoreFiltersButton {
+    position: absolute;
+    min-width: 52px;
+    min-height: 52px;
+    max-width: 52px;
+    max-height: 52px;
+    background:none;
+    left:25px;
+    top:7px;
+    cursor: pointer;
+    transition: rotate,.5s;
+}
+.filterContentMoreFiltersButton>img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+}
+.moreFiltersButtonActive {
+    rotate:-90deg;
+}
+.filterContentForm>h4 {
+    margin:0px 0px 20px 0px;
+}
+.filterContentForm>input {
+    color: #393939;
+    background:white;
+    border-radius: 10000px;
+    font-size: 32px;
+    width: 862.42px;
+    transition: padding,.4s;
+}
+.searchMoviesInputWithFilters {
+    padding:15px 15px 15px 100px;
+}
+.searchMoviesInputWithoutFilteres {
+    padding:15px 15px 15px 15px;
+}
+.filterContentForm>input::placeholder {
+    color:#393939;
+}
+.moreFilters {
+    position: relative;
+    background:white;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin:30px 0px 0px 0px;
+    padding:15px 10px 15px 10px;
+}
+.sortPan {
+    position: relative;
+    margin:15px 0px 0px 0px;
+}
+.sortPanTitle {
+    cursor: pointer;
+    font-size: 20px;
+    padding:5px;
+    color:gray;
+    background:#2C2C2C;
+}
+.moreFilters>input {
+    background:#2C2C2C;
+    color:white;
+    font-size: 20px;
+    padding:5px;
+    margin:10px 0px 0px 0px;
+}
+.moreFilters>input::placeholder {
+    color:gray;
+}
+.sortPanFilters {
+    position: relative;
+    background:#2C2C2C;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:5px 0px 0px 0px;
+    padding:5px;
+}
+.sortPanFilters>button {
+    background:none;
+    margin:5px 0px 5px 0px;
+    transition: background,.4s;
+    cursor: pointer;
+    color:white;
+    transition: color,.4s;
+    width: 100%;
+}
+.sortPanFilters>button:hover {
+    background:white;
+    color:#2C2C2C;
+}
+.movieListContainer {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    grid-column-gap: 52px;
+    grid-row-gap: 52px;
+    justify-content: center;
+    margin:75px 0px 0px 0px;
+}
+.movieList>button {
+    position: relative;
+    cursor: pointer;
+    background:none;
+    min-height: fit-content;
+    max-height: fit-content;
+    max-width: 300px;
+}
+.movieList>button>img {
+    min-height: 450px;
+    max-height: 100%;
+}
+.movieListMovieDescription {
+    position: absolute;
+    color:#CACACA;
+    opacity: 0;
+    transition: all,.7s;
+    bottom:0;
+    display: flex;
+    left:0;
+    right:0;
+    justify-content: center;
+    overflow-y: scroll;
+    height: 0;
+    min-height: fit-content;
+    max-height: 50%;
+    padding: 10px;
+    background:rgba(0,0,0,70%)
+}
+.movieListMovieDescription-show {
+    opacity: 1;
+    height: 100%;
+}
+.movieListMovieDescription::-webkit-scrollbar {
+    display: none;
+}
+.movieListFooterInfo {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+.movieListFooterInfo>h2 {
+    margin:5px 0px 0px 0px;
+}
+.movieListFooterInfo>.favButton {
+    position: relative;
+    margin:10px 0px 0px 0px;
+}
+.moviePageMainContainer {
+    position: relative;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin:100px 70px 0px 70px;
+}
+.moviePageHeadingContent {
+    display: flex;
+    position: relative;
+}
+.leftAsidePanMoviePage {
+    display: flex;
+    align-items: start;
+    min-width: 500px;
+    max-width: 500px;
+}
+.moviePageMainInfoAboutMovie {
+    position: relative;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+    text-align: center;
+}
+.moviePageMainInfoAboutMovieTrailers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.moviePageMainInfoAboutMovieTrailers>.videoClipFrame {
+    margin:20px;
+}
+.moviePageMainInfoAboutMovie>h3 {
+    color:#CACACA;
+}
+.moviePageVideosSection {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:100px 0px 0px 0px;
+}
+.moviePageVideosSectionVideosContent {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+.moviePageVideosSectionVideosContent>.videoClipFrame {
+    margin:25px;
+}
+.moviePageActorsSectionContainer {
+    position: relative;
+    margin:100px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.actorListContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.actorList {
+    position: relative;
+    width: 300px;
+    margin:20px;
+}
+.actorList>img {
+    height: 450px;
+    width: 300px;
+}
+.actorList>h3 {
+    margin:5px 0px 0px 0px;
+}
+.actorList>h4 {
+    color:#CACACA;
+}
+.moviePageReviewsSectionContainer {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:100px 0px 0px 0px;
+}
+.moviePageReviewsStat {
+    position: relative;
+    width:  fit-content;
+}
+.moviePageReviewsStat>li {
+    list-style: none;
+    display: flex;
+    align-items: end;
+}
+.moviePageReviewsStat>li>h2 {
+    margin:0px 5px 0px 0px;
+}
+.reviewsContainer {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.reviewList {
+    position: relative;
+    background:#FFFDC5;
+    width: 50%;
+    padding:30px;
+    height: fit-content;
+    color:#2C2C2C;
+    margin:100px 0px 0px 0px;
+}
+.reviewHighRate {
+    background:#E1FFE4
+}
+.reviewLowRate {
+    background:#FFE1E1;
+}
+.reviewListHeading {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.reviewListHeading>img {
+    width: 100px;
+    height: 100px;
+    border-radius: 1000px;
+    margin:0px 20px 0px 0px;
+}
+.reviewListReview *{
+    padding: unset;
+    margin:20px 0px 20px 0px;
+}
+#fullSizeButtonActorsSection {
+    margin:30px 0px 0px 0px;
+}
+.movieGenres {
+    position: relative;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.movieGenre {
+    background:#393939;
+    padding:5px;
+    margin:10px 10px 0px 0px;
+}
