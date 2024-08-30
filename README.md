@@ -2,7 +2,7 @@
 
 Video Review - [link](https://youtu.be/MeqkIWqZms8)
 
-<h2>Технологический стек, используемый в проекте:</h2>
+<h2 align="center">Технологический стек, используемый в проекте:</h2>
 
 - HTML;
 - CSS;
@@ -18,7 +18,7 @@ Video Review - [link](https://youtu.be/MeqkIWqZms8)
 
 <h1 align="center">EN | ThreelCinema V1</h1>
 
-<h2>Technology stack:</h2>
+<h2 align="center">Technology stack:</h2>
 
 - HTML;
 - CSS;
