@@ -1,48 +1,31 @@
-# ThreelCinema-Project-3
+<h1 align="center">RU | ThreelCinema V1</h1>
+
 Video Review - [link](https://youtu.be/MeqkIWqZms8)
 
-ThreelessCinema Project #3
+<h2>Технологический стек, используемый в проекте:</h2>
 
-Hey there! My project, ThreelessCinema, is a simple yet stylish project developed by me using various technologies to create a visually appealing interface and convenient functionality.
+- HTML;
+- CSS;
+- JS;
+- React;
+- React-Router;
+- API;
+- Git;
+- Markdown;
+- GSAP.
 
-________________________________________________________________________________________________
+<hr/>
 
-Core Technologies:
+<h1 align="center">EN | ThreelCinema V1</h1>
 
-• HTML, CSS, JS: The foundation of web development, providing the structure, style, and interactivity of my application.
+<h2>Technology stack:</h2>
 
-• React: The primary frontend framework enabling dynamic and component-driven web application development.
-
-• React Router: A routing library facilitating navigation and transitions between pages within the application.
-
-• API: Utilization of an external API (TMDB API) for fetching data about movies and other content.
-
-• Git: Version control system facilitating collaborative work and code management for the project.
-
-• Markdown: A markup language for creating readable and convenient documentation.
-
-• GSAP: An animation library providing beautiful and smooth animations within the application interface.
-
-________________________________________________________________________________________________
-
-Additional Features:
-
-• Custom components and hooks: Enhancing code reusability and simplifying state management of the application.
-
-• Error handling: Implementation of error handlers to ensure a smoother user experience and prevent crashes.
-
-• Pagination, sorting, and filtering of content: Improving navigation and search capabilities within the application.
-
-• Built-in player for multiple platforms: Convenient content viewing directly within the application.
-
-________________________________________________________________________________________________
-
-Social Media and Contacts:
-
-• Telegram - [link](https://t.me/paymentusd)
-
-• Github - [link](https://github.com/ThreelessUp)
-
-• Email - sadgerondo@gmail.com | golpondo@gmail.com
-
-• Upwork - [link](https://www.upwork.com/freelancers/~014327e1cc270280a6)
+- HTML;
+- CSS;
+- JS;
+- React;
+- React-Router;
+- API;
+- Git;
+- Markdown;
+- GSAP.
