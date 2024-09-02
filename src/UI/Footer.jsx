@@ -12,19 +12,19 @@ export const Footer = () => {
         </div>
         <ul>
             <li>
-                <a href='https://t.me/paymentusd'>
+                <a href='https://t.me/fomin_dev'>
                 <img src={telegramLogo} alt='telegram'/>
-                    <h4>paymentusd</h4>
+                    <h4>@fomin_dev</h4>
                 </a>
             </li>
             <li>
-                <a href='https://github.com/ThreelUp'>
+                <a href='https://github.com/4min-dev'>
                     <img src={githubLogo} alt='github'/>
-                    <h4>ThreelUp</h4>
+                    <h4>4min-dev</h4>
                 </a>
             </li>
             <li>
-                <img src={mailLogo} alt='mail'/> <h4>golpondo@gmail.com</h4>
+                <img src={mailLogo} alt='mail'/> <h4>sadge.rondo@gmail.com</h4>
             </li>
         </ul>
     </footer>
