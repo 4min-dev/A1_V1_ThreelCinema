@@ -1,6 +1,6 @@
 <h1 align="center">RU | ThreelCinema V1</h1>
 
-Video Review - [link](https://youtu.be/MeqkIWqZms8)
+Video Review - [link](https://youtu.be/78J2lTTiICU)
 
 <h2 align="center">Технологический стек, используемый в проекте:</h2>
 
